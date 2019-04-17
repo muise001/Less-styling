@@ -1,0 +1,25 @@
+/* ========= Colored Classes ========= */
+.purple {
+  background: #A42852;
+  color: #FFFFFF;
+}
+.blue {
+  background: #1B0988;
+  color: #FFFFFF;
+}
+.darkBlue {
+  background: #1F2443;
+  color: #FFFFFF;
+}
+.green {
+  background: #009F96;
+  color: #FFFFFF;
+}
+.red {
+  background: #E00000;
+  color: #FFFFFF;
+}
+.lightgray {
+  background: #F7F8FC;
+  color: #000000;
+}

@@ -1,0 +1,181 @@
+/* ========= Colored Classes ========= */
+.purple {
+  background: #A42852;
+  color: #FFFFFF;
+}
+.purpleT {
+  color: #A42852;
+}
+.purpleB {
+  border: 1px #A42852;
+}
+.purpleTB {
+  color: #A42852;
+  border: 1px solid #A42852;
+}
+.blue {
+  background: #1B0988;
+  color: #FFFFFF;
+}
+.blueT {
+  color: #1B0988;
+}
+.blueB {
+  border: 1px solid #1B0988;
+}
+.blueTB {
+  color: #1B0988;
+  border: 1px solid #1B0988;
+}
+.darkBlue {
+  background: #1F2443;
+  color: #FFFFFF;
+}
+.darkBlueT {
+  color: #1F2443;
+}
+.darkBlueB {
+  border: 1px solid #1F2443;
+}
+.darkBlueTB {
+  color: #1F2443;
+  border: 1px solid #1F2443;
+}
+.green {
+  background: #009F96;
+  color: #FFFFFF;
+}
+.greenT {
+  color: #009F96;
+}
+.greenB {
+  border: 1px solid #009F96;
+}
+.greenTB {
+  color: #009F96;
+  border: 1px solid #009F96;
+}
+.red {
+  background: #E00000;
+  color: #FFFFFF;
+}
+.redT {
+  color: #E00000;
+}
+.redB {
+  border: 1px solid #E00000;
+}
+.redTB {
+  color: #E00000;
+  border: 1px solid #E00000;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+h1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+h3 {
+  font-size: 18px;
+}
+.disabled {
+  opacity: 0.6;
+  pointer-events: none!important;
+}
+.circular {
+  border-radius: 100%;
+}
+button {
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 2px;
+}
+button:hover {
+  background: #e6e6e6;
+}
+button:active {
+  background: #cccccc;
+}
+button:not(.purpleB):not(.purpleTB):not(.blueB):not(.blueTB):not(.darkBlueB):not(.darkBlueTB) {
+  border: 2px #F7F8FC;
+}
+/* ========= Button Widths ========= */
+button.small {
+  width: 60px;
+}
+button.medium {
+  width: 80px;
+}
+button.big {
+  width: 120px;
+}
+button.wide {
+  width: 50%;
+}
+button.veryWide {
+  width: 100%;
+}
+/* ========= Button Colors ========= */
+button.purple:hover {
+  background: #c53062;
+}
+button.purple:active {
+  background: #832042;
+}
+button {
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 2px;
+}
+button:hover {
+  background: #e6e6e6;
+}
+button:active {
+  background: #cccccc;
+}
+button:not(.purpleB):not(.purpleTB):not(.blueB):not(.blueTB):not(.darkBlueB):not(.darkBlueTB) {
+  border: 2px #F7F8FC;
+}
+/* ========= Button Widths ========= */
+button.small {
+  width: 60px;
+}
+button.medium {
+  width: 80px;
+}
+button.big {
+  width: 120px;
+}
+button.wide {
+  width: 50%;
+}
+button.veryWide {
+  width: 100%;
+}
+/* ========= Button Colors ========= */
+button.purple:hover {
+  background: #c53062;
+}
+button.purple:active {
+  background: #832042;
+}

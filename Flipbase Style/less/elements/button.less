@@ -1,0 +1,60 @@
+@borderRadius: 2px;
+@smallBorder: 1px;
+@mediumBorder: 2px;
+
+button {
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: @borderRadius;
+}
+
+button {
+  &:hover {
+    background: darken(@white, 10%);
+  }
+  &:active {
+    background: darken(@white, 20%);
+  }
+}
+
+button:not(.purpleB):not(.purpleTB):not(.blueB):not(.blueTB):not(.darkBlueB):not(.darkBlueTB) {
+  border: 2px @lightgray;
+}
+
+/* ========= Button Widths ========= */
+
+// Set widths
+
+button.small {
+  width: 60px;
+}
+
+button.medium {
+  width: 80px;
+}
+
+button.big {
+  width: 120px;
+}
+
+// Relative widths
+
+button.wide {
+  width: 50%;
+}
+
+button.veryWide {
+  width: 100%;
+}
+
+
+/* ========= Button Colors ========= */
+
+button.purple {
+  &:hover {
+    background: lighten(@purple, 8%);
+  }
+  &:active {
+    background: darken(@purple, 8%);
+  }
+}

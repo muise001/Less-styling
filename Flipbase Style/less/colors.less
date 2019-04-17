@@ -1,0 +1,131 @@
+@purple    : #A42852;
+@blue      : #1B0988;
+@darkBlue  : #1F2443;
+
+@background  : #F7F8FC;
+@disabled-bg : #1F2443;
+@lightgray : #F7F8FC;
+
+@white : #FFFFFF;
+@black : #000000;
+@gray  : #F0F0F0;
+
+@green : #009F96;
+@red   : #E00000;
+
+
+/* ========= Background-colored Classes ========= */
+.text-color(@a) when (lightness(@a) >= 50%){
+  color: @black;
+}
+
+.text-color(@a) when (lightness(@a) < 50%){
+  color: @white;
+}
+
+.purple {
+  background: @purple;
+  .text-color(@purple);
+}
+
+.blue {
+  background: @blue;
+  .text-color(@blue);
+}
+
+.darkBlue {
+  background: @darkBlue;
+  .text-color(@darkBlue);
+}
+
+.green {
+  background: @green;
+  .text-color(@green);
+}
+
+.red {
+  background: @red;
+  .text-color(@red);
+}
+
+.lightgray {
+  background: @lightgray;
+  .text-color(@lightgray);
+}
+
+/* ========= Text and border colored Classes ========= */
+
+.purpleT {
+  color: @purple;
+}
+
+.purpleB {
+  border: 1px @purple;
+}
+
+.purpleTB{
+  color: @purple;
+  border: @smallBorder solid @purple;
+}
+.blueT {
+  color: @blue;
+}
+
+.blueB {
+  border: @smallBorder solid @blue;
+}
+
+.blueTB{
+  color: @blue;
+  border: @smallBorder solid @blue;
+}
+
+.darkBlueT {
+  color: @darkBlue;
+}
+
+.darkBlueB {
+  border: @smallBorder solid @darkBlue;
+}
+
+.darkBlueTB{
+  color: @darkBlue;
+  border: @smallBorder solid @darkBlue;
+}
+.greenT {
+  color: @green;
+}
+
+.greenB {
+  border: @smallBorder solid @green;
+}
+
+.greenTB{
+  color: @green;
+  border: @smallBorder solid @green;
+}
+
+.redT {
+  color: @red;
+}
+
+.redB {
+  border: @smallBorder solid  @red;
+}
+
+.redTB{
+  color: @red;
+  border: @smallBorder solid  @red;
+}
+.lightgrayT {
+  color: @lightgray;
+}
+
+.lightgrayB {
+  border: @smallBorder solid  @lightgray;
+}
+
+.lightgrayTB{
+  color: @lightgray;
+  border: @smallBorder solid  @lightgray;
+}
